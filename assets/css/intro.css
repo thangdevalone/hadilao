@@ -1,0 +1,16 @@
+
+.intro-ct{
+    width: 80%;
+}
+.intro-ct img{
+    width: 100%;
+}
+#intro-dt{
+    background-size: cover;
+    background-image: url("../img/bg2.png");
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+    padding-top: 150px;
+}

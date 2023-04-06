@@ -1,0 +1,39 @@
+.btn-df{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+section{
+    margin-bottom: 20px;
+}
+.btn-a{
+    color: rgba(255, 255, 255, 0.75);
+}
+.btn-menu{
+    color: black;
+    padding: 0 20px;
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 32px;
+}
+.divider-btn{
+    height: 30px;
+    width: 2px;
+    background-color: black;
+}
+.btn-menu:last-child{
+    border-right: none;
+}
+.btn-nav{
+    height: 70px;
+    transition: color 0.25s;
+    font-size: 28px;
+    padding: 10px 15px;
+    margin-right: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn-nav:hover{
+    color: white !important;
+    text-shadow: 0px 2px 6px rgba(255, 255, 255, 0.3);
+}
