@@ -7,13 +7,13 @@
   #intro .box-content {
     flex-wrap: wrap;
   }
-  #intro img{
+  #intro img {
     margin-right: 0;
   }
-  #intro .content{
+  #intro .content {
     margin-left: 0;
   }
-  #branch .locate-dt{
+  #branch .locate-dt {
     font-size: 20px;
   }
   #branch .locate-name {
@@ -33,7 +33,7 @@
   #menu .food-name {
     font-size: 25px;
   }
-  #menu .food-dt{
+  #menu .food-dt {
     font-size: 15px;
   }
 }
@@ -62,42 +62,48 @@
   #menu .wrap {
     height: 600px;
   }
-  .locate-tooltip .locate-tt-dt{
+  .locate-tooltip .locate-tt-dt {
     font-size: 16px;
   }
-  #branch .locate-tooltip .locate-tt-name{
+  #branch .locate-tooltip .locate-tt-name {
     font-size: 24px;
     font-weight: 500;
   }
 }
+@media only screen and (max-width: 800px) {
+  .btn-nav {
+    font-size: 22px;
+    margin-right: 0px;
+  }
+  #logo {
+    font-size: 26px;
+  }
+}
 @media only screen and (max-width: 700px) {
-  .footer-tt{
+  .footer-tt {
     font-size: 25px;
     font-weight: 500;
     margin-bottom: 10px;
   }
-  .footer-dt{
+  .footer-dt {
     font-size: 16px;
     line-height: 30px;
   }
-  .ico-ct{
+  .ico-ct {
     width: 40px;
     height: 40px;
     margin-top: 5px;
   }
-  .ico-ct i{
-    font-size: 20px;;
+  .ico-ct i {
+    font-size: 20px;
   }
   .order-form .title {
-
     font-size: 30px;
- 
   }
   .btn-css {
     font-size: 20px;
     margin: 0 auto;
     width: 150px;
     height: 50px;
-   
   }
 }

@@ -305,8 +305,9 @@ section .title-text {
 .divider-vtc {
   background-color: #bb271a;
   width: 3px;
-  height: 400px;
+ 
   margin: 80px 80px 0px 80px;
+  margin-bottom: 55px;
 }
 #branch .locate-ds {
   margin-bottom: 25px;
